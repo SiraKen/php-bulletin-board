@@ -2,7 +2,13 @@
 
 ## PHPでのIPアドレスの扱い
 
-`ip2long` と `long2ip` を使う
+IPアドレス取得
+
+```php
+$_SERVER["REMOTE_ADDR"] ;
+```
+
+DB格納には `ip2long` と `long2ip` を使う
 
 ```php
 <?php
